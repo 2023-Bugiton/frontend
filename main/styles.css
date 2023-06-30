@@ -349,16 +349,6 @@ ul,li,ol {list-style: none;}
     background-repeat:no-repeat;
     background-size:cover;
  }
- .e4_75 { 
-    color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
-    position:absolute;
-    left:6.995207786560059px;
-    top:398px;
-    font-family:Noto Sans;
-    font-size:16px;
-    letter-spacing:0;
-    line-height:px;
- }
 
  .city_ex { 
     color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
@@ -370,78 +360,7 @@ ul,li,ol {list-style: none;}
     letter-spacing:0;
     line-height:px;
  }
- .e2_1671 { 
-    width:450px;
-    height:24px;
-    position:absolute;
-    left:396px;
-    top:48px;
- }
- .e2_1672 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    width:96px;
-    height:24px;
-    position:absolute;
-    left:0px;
-    top:0px;
-    font-family:"Kyobo Handwriting 2022", sans-serif;
-    text-align:center;
-    font-size:32px;
-    letter-spacing:0;
-    line-height:24px;
- }
- .e2_1673 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    width:127px;
-    height:24px;
-    position:absolute;
-    left:116px;
-    top:0px;
-    font-family:Pretendard;
-    text-align:left;
-    font-size:20px;
-    letter-spacing:0;
-    line-height:px;
- }
- .e2_1675 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    width:40px;
-    height:24px;
-    position:absolute;
-    left:265px;
-    top:0px;
-    font-family:Pretendard;
-    text-align:left;
-    font-size:20px;
-    letter-spacing:0;
-    line-height:px;
- }
- .e2_1676 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    width:40px;
-    height:24px;
-    position:absolute;
-    left:340px;
-    top:0px;
-    font-family:Pretendard;
-    text-align:left;
-    font-size:20px;
-    letter-spacing:0;
-    line-height:px;
- }
- .e2_1677 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    width:40px;
-    height:24px;
-    position:absolute;
-    left:415px;
-    top:0px;
-    font-family:Pretendard;
-    text-align:left;
-    font-size:20px;
-    letter-spacing:0;
-    line-height:px;
- }
+
  .smallcity { 
     color:rgba(34.00000177323818, 34.00000177323818, 34.00000177323818, 1);
     position:absolute;
@@ -538,13 +457,6 @@ ul,li,ol {list-style: none;}
     font-size:14px;
     letter-spacing:0;
     line-height:px;
- }
- .e4_110 { 
-    width:16px;
-    height:16px;
-    position:absolute;
-    left:1418px;
-    top:1503px;
  }
  .look_frame2 { 
     width:68.66666412353516px;
@@ -653,14 +565,7 @@ ul,li,ol {list-style: none;}
     left:859px;
     top:18px;
  }
- .heart { 
-    background-color:rgba(255, 82.87499696016312, 82.87499696016312, 1);
-    width:20px;
-    height:18.350000381469727px;
-    position:absolute;
-    left:2px;
-    top:3px;
- }
+
 
  .frame2 { 
     width:983px;
