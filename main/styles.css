@@ -12,6 +12,22 @@ ul,li,ol {list-style: none;}
 #header .inner ul.nav li {color: #737373;font-size: 20px;font-family: pretendard;}
 #header .inner ul.sub_menu li {display: inline-block;color: #737373;font-size: 20px;font-family: pretendard; }
 
+
+hr{
+   position:relative;
+   top:3763px;
+}
+
+#header .inner ul.nav li:hover {
+   cursor:pointer;
+   color:#809675;
+}
+
+#header .inner ul.sub_menu li:hover {
+   cursor:pointer;
+   color:#809675;
+}
+
 #arrow2{
    margin-top:360px;
    margin-left:406px;
