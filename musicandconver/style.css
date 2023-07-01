@@ -18,6 +18,16 @@ html, body{
     padding:0;
 }
 
+#header .inner ul.nav li:hover {
+   cursor:pointer;
+   color:#809675;
+ }
+ 
+ #header .inner ul.sub_menu li:hover {
+   cursor:pointer;
+   color:#809675;
+ }
+
 
 .title { 
     color:rgba(34.00000177323818, 34.00000177323818, 34.00000177323818, 1);
@@ -129,7 +139,7 @@ html, body{
 
  hr{
     position:relative;
-    top:1643px;
+    top:1663px;
 }
 
  .inform1 { 
