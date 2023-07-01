@@ -12,6 +12,24 @@
 a {text-decoration: none;}
 ul,li,ol {list-style: none;}
 
+#header .inner ul.nav li:hover {
+  cursor:pointer;
+  color:#809675;
+}
+
+#header .inner ul.sub_menu li:hover {
+  cursor:pointer;
+  color:#809675;
+}
+
+
+html, body{
+  width:1920px;
+  height:1980px;
+  margin:0;
+  padding:0;
+}
+
 
 .title { 
   color:rgba(34.00000177323818, 34.00000177323818, 34.00000177323818, 1);
@@ -213,6 +231,11 @@ ul,li,ol {list-style: none;}
   border-bottom-right-radius:29px;
 }
 
+hr{
+  position:relative;
+  top:3763px;
+}
+
 .rect { 
     border-radius:500px;
     background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
@@ -252,24 +275,45 @@ ul,li,ol {list-style: none;}
 }
 
 //footer
+.blank { 
+  width:24px;
+  height:24px;
+  position:absolute;
+  left:859px;
+  top:18px;
+}
+.heart { 
+  width:20px;
+  height:18.350000381469727px;
+  position:absolute;
+  left:2px;
+  top:3px;
+}
+
 .point { 
   background-color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
   width:4px;
   height:4px;
-  position:absolute;
+  position:relative;
   left:500px;
-  top:3973px;
+  top:1767px;
   border-top-left-radius:9999px;
   border-top-right-radius:9999px;
   border-bottom-left-radius:9999px;
   border-bottom-right-radius:9999px;
 }
+
+hr{
+  position:relative;
+  top:1643px;
+}
+
 .inform1 { 
   color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
   height:18px;
-  position:absolute;
+  position:relative;
   left:452px;
-  top:1736px;
+  top:1750px;
   font-family:Pretendard;
   text-align:left;
   font-size:11px;
@@ -279,9 +323,9 @@ ul,li,ol {list-style: none;}
 .inform2 { 
   color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
   height:18px;
-  position:absolute;
-  left:512px;
-  top:1736px;
+  position:relative;
+  left:472px;
+  top:1750px;
   font-family:Pretendard;
   text-align:left;
   font-size:11px;
@@ -289,9 +333,9 @@ ul,li,ol {list-style: none;}
 .inform3 { 
   color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
   height:18px;
-  position:absolute;
-  left:452px;
-  top:1766px;
+  position:relative;
+  left:306px;
+  top:1780px;
   font-family:Pretendard;
   text-align:left;
   font-size:11px;
@@ -299,9 +343,9 @@ ul,li,ol {list-style: none;}
 .inform4 { 
   color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
   height:18px;
-  position:absolute;
-  left:552px;
-  top:1766px;
+  position:relative;
+  left:316px;
+  top:1779px;
   font-family:Pretendard;
   text-align:left;
   font-size:12px;
@@ -312,44 +356,46 @@ ul,li,ol {list-style: none;}
   height:96px;
   position:absolute;
   left:1333px;
-  top:1702px;
+  top:2123px;
   font-family:Pretendard;
   text-align:right;
   font-size:11px;
   letter-spacing:0;
 }
+
 .copy { 
   color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
   width:350px;
   height:18px;
-  position:absolute;
-  left:452px;
-  top:1796px;
+  position:relative;
+  left:87px;
+  top:1808px;
   font-family:Pretendard;
   text-align:left;
   font-size:11px;
   letter-spacing:0;
   line-height:px;
 }
+
 #icon1 { 
   width:24px;
   height:24px;
-  position:absolute;
+  position:relative;
   left:452px;
   top:1688px;
 }
 #icon2 { 
-  width:24px;
-  height:24px;
-  position:absolute;
-  left:488px;
-  top:1688px;
+   width:24px;
+   height:24px;
+   position:relative;
+   left:488px;
+   top:1663.5px;
 }
 #icon3{
   width:24px;
-  height:24px;
-  position:absolute;
-  left:524px;
-  top:1688px;
+   height:24px;
+   position:relative;
+   left:524px;
+   top:1640px;
 }
 
