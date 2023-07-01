@@ -9,6 +9,15 @@
 #header .inner ul.nav li {color: #737373;font-size: 20px;font-family: pretendard;}
 #header .inner ul.sub_menu li {display: inline-block;color: #737373;font-size: 20px;font-family: pretendard; }
 
+#header .inner ul.nav li:hover {
+    cursor:pointer;
+    color:#809675;
+}
+
+#header .inner ul.sub_menu li:hover {
+    cursor:pointer;
+    color:#809675;
+}
 
 * {margin:0; padding:0;}
 a {text-decoration:none;}
@@ -117,7 +126,7 @@ html, body{
     left:108px;
 }
 
-#main-holder > input[type="submit"]{
+#main-holder > button[type="submit"]{
     width: 351px;
     height: 60px;
     flex-shrink: 0;
@@ -132,6 +141,8 @@ html, body{
     background: #809675;
     margin-top: 20px;
     position:absolute;
+    border-color:#809675;
+    border:none;
     top:540px;
     left:232px;
 }
@@ -260,7 +271,14 @@ html, body{
      top:1640px;
   }
 
+  #main-holder button[type="submit"]:active {
+    background: #668E56;
+    box-shadow: none;
+  }
 
+  #main-holder button[type="submit"]:hover {
+    cursor: pointer;
+  }
 
   
   
