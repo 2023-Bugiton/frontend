@@ -78,7 +78,6 @@ hr{
    text-align:left;
    font-size:35px;
    letter-spacing:0;
-   line-height:px;
 }
 
 
@@ -106,7 +105,6 @@ hr{
    text-align:left;
    font-size:11px;
    letter-spacing:0;
-   line-height:px;
 }
 .inform2 { 
    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
@@ -161,7 +159,6 @@ hr{
    text-align:left;
    font-size:11px;
    letter-spacing:0;
-   line-height:px;
 }
 
 
@@ -226,7 +223,6 @@ hr{
     text-align:left;
     font-size:18px;
     letter-spacing:0;
-    line-height:px;
  }
 .button1 { 
    border-radius:4px;
@@ -303,7 +299,6 @@ hr{
     text-align:left;
     font-size:16px;
     letter-spacing:0;
-    line-height:px;
  }
 .name { 
    color:rgba(181.0000044107437, 181.0000044107437, 181.0000044107437, 1);
@@ -314,7 +309,6 @@ hr{
    text-align:left;
    font-size:16px;
    letter-spacing:0;
-   line-height:px;
 }
 .drawer { 
    width:69.43310546875px;
@@ -334,7 +328,6 @@ hr{
    text-align:right;
    font-size:13px;
    letter-spacing:0;
-   line-height:px;
 }
 .picframe2 { 
    width:300px;
@@ -374,7 +367,6 @@ hr{
     font-family:Pretendard;
     font-size:16px;
     letter-spacing:0;
-    line-height:px;
  }
 
  .smallcity { 
@@ -385,7 +377,6 @@ hr{
     font-family:Pretendard;
     font-size:26px;
     letter-spacing:0;
-    line-height:px;
  }
  .music_ex { 
     color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
@@ -395,7 +386,6 @@ hr{
     font-family:Pretendard;
     font-size:16px;
     letter-spacing:0;
-    line-height:px;
  }
  .tripmusic { 
     color:rgba(34.00000177323818, 34.00000177323818, 34.00000177323818, 1);
@@ -405,7 +395,6 @@ hr{
     font-family:Pretendard;
     font-size:26px;
     letter-spacing:0;
-    line-height:px;
  }
  .per_ex { 
     color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
@@ -448,21 +437,7 @@ hr{
     background-repeat:no-repeat;
     background-size:cover;
  }
- .look_frame1 { 
-    width:16px;
-    height:16px;
-    position:absolute;
-    left:1418px;
-    top:817px;
- }
  
- .look_pic1 { 
-    width:4.666666507720947px;
-    height:9.333333015441895px;
-    position:absolute;
-    left:6px;
-    top:3.3333332538604736px;
- }
  .look1 { 
     color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
     position:absolute;
@@ -472,61 +447,30 @@ hr{
     text-align:left;
     font-size:14px;
     letter-spacing:0;
-    line-height:px;
  }
- .look_frame2 { 
-    width:68.66666412353516px;
-    height:21px;
-    position:absolute;
-    left:1360px;
-    top:1501px;
- }
- 
- .look_pic2 { 
-    width:4.666666507720947px;
-    height:9.333333015441895px;
-    position:absolute;
-    left:64px;
-    top:5.33349609375px;
- }
+
  .look2 { 
     color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
     position:absolute;
 	width:76px;
 	height:19px;
-    left:0px;
-    top:0px;
+   left:1360px;
+   top: 1506px;
     font-family:Pretendard;
     font-size:14px;
     letter-spacing:0;
-    line-height:px;
  }
- .look_frame3 { 
-    width:68.66666412353516px;
-    height:21px;
-    position:absolute;
-    left:1360px;
-    top:2171px;
- }
- 
- .look_pic3 { 
-    width:4.666666507720947px;
-    height:9.333333015441895px;
-    position:absolute;
-    left:64px;
-    top:5.33349609375px;
- }
+
  .look3 { 
     color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
     position:absolute;
-    left:0px;
-    top:0px;
+    left:1360px;
+    top:2181px;
 	width:76px;
 	height:19px;
     font-family:Pretendard;
     font-size:14px;
     letter-spacing:0;
-    line-height:px;
  }
  .container2 { 
     width:983px;
@@ -563,7 +507,6 @@ hr{
     font-family:Pretendard;
     font-size:20px;
     letter-spacing:0;
-    line-height:px;
  }
  .singer { 
     color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
