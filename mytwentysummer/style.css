@@ -1,0 +1,401 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {
+    font-family: 'KyoboHandwriting2022khn';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KyoboHandwriting2022khn.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrap {max-width: 1080px;margin: 0 auto;}
+#header {position:relative; line-height:1;}
+#header .inner {display: flex; align-items: center; justify-content: space-between;height: 110px;}
+#header .inner .left {display: flex; align-items: center;}
+#header .inner h1 a {color: #737373; font-family: 'KyoboHandwriting2022khn';}
+#header .inner ul.nav {display: flex; align-items: center;gap:50px;margin-left: 40px;margin-right:100px;}
+#header .inner ul.nav li {color: #737373;font-size: 20px;font-family: pretendard;}
+#header .inner ul.sub_menu li {display: inline-block;color: #737373;font-size: 20px;font-family: pretendard; }
+
+#wrap2 {max-width: 1080px;margin: 0 auto;}
+#header2 {position:relative; line-height:1;}
+#header2 .inner2 {display: flex; align-items: center; justify-content: space-between;height: 110px;}
+#header2 .inner2 .left2 {display: flex; align-items: center;}
+#header2 .inner2 ul.nav2 {display: flex; align-items: center;gap:100px;margin-left:170px; margin-right:100px; margin-top:50px;}
+#header2 .inner2 ul.nav2 li {
+    color:rgba(51, 51, 51, 0.50); 
+    font-size: 13px; 
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    
+}
+
+#header2 .inner2 ul.nav2 li:visited {
+    text-decoration: underline;
+}
+
+html, body{
+    width:1920px;
+    height:1980px;
+    margin:0;
+    padding:0;
+}
+
+* {margin:0; padding:0;}
+a {text-decoration:none;}
+ul,li,ol {list-style: none;}
+
+#header .inner ul.nav li:hover {
+   cursor:pointer;
+   color:#809675;
+ }
+ 
+ #header .inner ul.sub_menu li:hover {
+   cursor:pointer;
+   color:#809675;
+ }
+
+ .parent-container {
+    position: relative;
+  }
+  
+  .buttons {
+    margin-top: 180px; margin-left:900px;
+    justify-content: center; /* 가로 가운데 정렬 */
+    align-items: center; /* 세로 가운데 정렬 */
+    
+  }
+  
+  .buttons > div {
+    display: inline-block; /* 요소들을 가로로 나열하기 위해 인라인 블록으로 설정합니다 */
+    margin: 0 10px; /* 요소들 간의 간격 설정 (옵션) */
+    margin-top: 280px;
+  }
+  
+  
+  
+  #spring {
+    font-family: Noto Sans;
+    font-style: normal;
+    color: #333;
+    width: 112px;
+    height:30px;
+    margin: 10px;
+    line-height:30px;
+    padding: 10px;
+    border-radius:22px;
+    background-color: #FAC8C8;
+    text-align: center;
+  }
+
+
+.title { 
+    color:#737373;
+    position:absolute;
+    left:865px;
+    top:121px;
+    font-family:Pretendard;
+    font-size:30px;
+    font-weight:400;
+    letter-spacing:0;
+    line-height:36px;
+    text-align:center;
+ }
+
+ .smalltitle{
+    color:#737373;
+    position:absolute;
+    left:810px;
+    top:210px;
+    font-family:Pretendard;
+    font-size:13px;
+    letter-spacing:0;
+    line-height:21px;
+    font-weight:400;
+    font-style:normal;
+    text-align:center;
+ }
+
+ 
+ input{
+    width: 730px;
+    height: 56px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #E3E3E3;
+}
+input::placeholder{
+    color: #D2D2D2;
+}
+
+.food{
+   color: #999;
+text-align: center;
+font-size: 20px;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 20.8px;
+position:absolute;
+left:608px;
+top:510px;
+}
+
+.price{
+    color: #999;
+ text-align: center;
+ font-size: 20px;
+ font-family: Noto Sans;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 20.8px;
+ position:absolute;
+ left:608px;
+ top:640px;
+ }
+
+ .store{
+    color: #999;
+ text-align: center;
+ font-size: 20px;
+ font-family: Noto Sans;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 20.8px;
+ position:absolute;
+ left:608px;
+ top:769px;
+ }
+
+ .review{
+    color: #999;
+ text-align: center;
+ font-size: 20px;
+ font-family: Noto Sans;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 20.8px;
+ position:absolute;
+ left:608px;
+ top:898px;
+ }
+
+ .star{
+    color: #999;
+    text-align: center;
+    font-size: 20px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.8px;
+    position:absolute;
+    left:608px;
+    top:1065px;
+ }
+
+ .button1 { 
+    border-radius:4px;
+    color:white;
+     position:absolute;
+     left:1170px;
+     top:1100px;
+     font-family:Noto Sans;
+     border: 1px;
+     font-size:15px;
+     letter-spacing:0;
+    background-color:#E1BDBD;
+    padding: 10px;
+    width:144px;
+    height:30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+ 
+ }
+
+
+input[name="food"]{
+    position:absolute;
+    top:550px;
+    left:608px;
+}
+
+input[name="price"]{
+    position:absolute;
+    top:679px;
+    left:608px;
+}
+
+input[name="store"]{
+    position:absolute;
+    top:808px;
+    left:608px;
+}
+
+
+input[name="review"]{
+    width: 730px;
+    height: 104px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #E3E3E3;
+    position:absolute;
+    top:937px;
+    left:608px;
+}
+
+.stars1 { 
+    width:20px;
+    height:18.350000381469727px;
+    position:absolute;
+    left:608px;
+    top:1103px;
+  }
+
+  .stars2 { 
+    width:20px;
+    height:18.350000381469727px;
+    position:absolute;
+    left:649px;
+    top:1103px;
+  }
+
+  .stars3 { 
+    width:20px;
+    height:18.350000381469727px;
+    position:absolute;
+    left:690px;
+    top:1103px;
+  }
+
+  .stars4 { 
+    width:20px;
+    height:18.350000381469727px;
+    position:absolute;
+    left:731px;
+    top:1103px;
+  }
+
+  .stars5 { 
+    width:20px;
+    height:18.350000381469727px;
+    position:absolute;
+    left:772px;
+    top:1103px;
+  }
+
+  .point { 
+    background-color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
+    width:4px;
+    height:4px;
+    position:relative;
+    left:500px;
+    top:1767px;
+    border-top-left-radius:9999px;
+    border-top-right-radius:9999px;
+    border-bottom-left-radius:9999px;
+    border-bottom-right-radius:9999px;
+ }
+
+ hr{
+    position:relative;
+    top:1643px;
+}
+
+ .inform1 { 
+    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
+    height:18px;
+    position:relative;
+    left:452px;
+    top:1750px;
+    font-family:Pretendard;
+    text-align:left;
+    font-size:11px;
+    letter-spacing:0;
+    line-height:px;
+ }
+ .inform2 { 
+    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
+    height:18px;
+    position:relative;
+    left:472px;
+    top:1750px;
+    font-family:Pretendard;
+    text-align:left;
+    font-size:11px;
+ }
+ .inform3 { 
+    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
+    height:18px;
+    position:relative;
+    left:306px;
+    top:1780px;
+    font-family:Pretendard;
+    text-align:left;
+    font-size:11px;
+ }
+ .inform4 { 
+    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
+    height:18px;
+    position:relative;
+    left:316px;
+    top:1779px;
+    font-family:Pretendard;
+    text-align:left;
+    font-size:12px;
+ }
+ .inform5 { 
+    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
+    width:134px;
+    height:96px;
+    position:absolute;
+    left:1333px;
+    top:2240px;
+    font-family:Pretendard;
+    text-align:right;
+    font-size:11px;
+    letter-spacing:0;
+ }
+
+ .copy { 
+    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
+    width:350px;
+    height:18px;
+    position:relative;
+    left:87px;
+    top:1808px;
+    font-family:Pretendard;
+    text-align:left;
+    font-size:11px;
+    letter-spacing:0;
+    line-height:px;
+ }
+
+ #icon1 { 
+    width:24px;
+    height:24px;
+    position:relative;
+    left:452px;
+    top:1688px;
+ }
+  #icon2 { 
+     width:24px;
+     height:24px;
+     position:relative;
+     left:488px;
+     top:1663.5px;
+  }
+  #icon3{
+    width:24px;
+     height:24px;
+     position:relative;
+     left:524px;
+     top:1640px;
+  }
