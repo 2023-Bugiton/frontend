@@ -1,0 +1,200 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*nav*/
+
+nav {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* 가운데 정렬을 위해 추가 */
+  max-width: 100rem;
+}
+
+nav div{
+  flex-grow: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  color: var(--main-bl, #737373);
+  font-size: 20px;
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.navContainer1 > div{
+  flex-grow: 0.3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navContainer1{
+  margin: 0 auto;
+  max-width: 80rem;
+  justify-content: center;
+}
+
+.navContainer2{
+  margin: 0 auto;
+  max-width: 20rem;
+}
+
+.navContainer2 > div{
+  flex-grow: 0.03;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+
+#navTitle{
+  color: var(--main-bl, #737373);
+  text-align: center;
+  font-size: 32px;
+  font-family: Kyobo Handwriting 2022;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/*pageTitle*/
+
+.pageTitle{
+  display: flex;
+  height: 8vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  max-width: 100rem;
+  margin-top: 168;
+
+  color: #222;
+  text-align: center;
+  font-size: 30px;
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+/*subTitle*/
+
+.subTitle{
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  max-width: 100rem;
+
+  color: #737373;
+  text-align: center;
+  font-size: 13px;
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/*button*/
+
+.button{
+  
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top:40;
+}
+
+.button div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#spring {
+  font-family: Noto Sans;
+  font-style: normal;
+  color: #333;
+  width: 112px;
+  height:30px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:22px;
+  background-color: #FCFAF6;
+  text-align: center;
+}
+#spring:hover {
+  background-color: #FAC8C8;
+  color: #FFF;
+}
+
+
+#summer{
+  font-family: Noto Sans;
+  font-style: normal;
+  color: #333;
+  width: 112px;
+  height:28px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:22px;
+  background-color: #FCFAF6;
+  text-align: center;
+}
+#summer:hover {
+  background-color: #C4E4E9;
+  color: #FFF;
+}
+
+#autumn{
+  font-family: Noto Sans;
+  font-style: normal;
+  color: #333;
+  width: 112px;
+  height:28px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:22px;
+  background-color: #FCFAF6;
+  text-align: center;
+}
+#autumn:hover {
+  background-color: #DCC8AA;
+  color: #FFF;
+}
+
+#winter{
+  font-family: Noto Sans;
+  font-style: normal;
+  color: #333;
+  width: 112px;
+  height:28px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:22px;
+  background-color: #FCFAF6;
+  text-align: center;
+}
+#winter:hover {
+  background-color: #CBC6CF;
+  color: #FFF;
+}
+
+/*option*/
+
+.option{
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 오른쪽 정렬로 수정 */
+  margin-left:950;
+}
+
