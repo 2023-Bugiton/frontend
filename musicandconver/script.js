@@ -1,14 +1,14 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const heart = document.querySelector(".heart img");
-    let isLiked = false;
+document.addEventListener('DOMContentLoaded', function() {
+    const likeImages = document.querySelectorAll('.like img');
 
-    heart.addEventListener("click", function() {
-        if (isLiked) {
-            heart.src = "images/mdi_heart-outline.png";
-            isLiked = false;
+    likeImages.forEach(function(likeImage) {
+    likeImage.addEventListener('click', function() {
+        if (likeImage.src.includes('heart.png')) {
+        likeImage.src = 'images/mdi_heart-outline.png';
         } else {
-            heart.src = "images/mdi_heart.png";
-            isLiked = true;
+        likeImage.src = 'images/mdi_heart.png';
         }
     });
+    });
 });
+
