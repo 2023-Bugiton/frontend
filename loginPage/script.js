@@ -10,7 +10,7 @@ function validateForm() {
     }
 
     else{ 
-        alert("로그인 성공");
+        //로그인 성공
     }
 
   }
