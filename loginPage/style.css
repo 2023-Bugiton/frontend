@@ -17,11 +17,12 @@ body{
   text-decoration: none;
 }
 
- a:visited { 
+  a { 
   color: #737373; 
-  text-decoration: none;}
+  text-decoration: none;
+  color: inherit;}
 
-  a:hover{
+  a.green:hover{
     color: #809675; 
     text-decoration: none;
   }
@@ -94,6 +95,7 @@ body{
    cursor:pointer;
    color: #737373;
  }
+
 
 .container {
    
