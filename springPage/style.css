@@ -272,24 +272,33 @@ body{
 
 /*option*/
 
-.option{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left:970px;
+.options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:970px;
 
-    color: #222;
+  color: #222;
     text-align: right;
     font-size: 13px;
     font-family: Pretendard;
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-    
 }
 
-.option:hover {
-    cursor: pointer;
+.options:hover {
+  cursor: pointer;
+}
+
+.options select {
+  border: none;
+  background-color: transparent;
+  
+}
+
+.options select:focus {
+  outline: none;
 }
 
 /*myPics*/
@@ -342,12 +351,18 @@ body{
     line-height: 17px;
 }
 
+.drawer:hover{
+  cursor:pointer;
+}
+
 .picEx {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.picEx:hover{
+  cursor:pointer;
+}
 
 .author{
     margin-top: 7px;
@@ -357,6 +372,10 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+
+.author:hover{
+  cursor:pointer;
 }
 
 .explain{

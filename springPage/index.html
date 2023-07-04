@@ -22,7 +22,7 @@
 
             <div class="navContainer2">
                 <div id="login"><a href="/loginPage/index.html" class="green">로그인 |</a></div>
-                <div id="myPage"><img src="images/Vector.png" alt=""><a href="#" class="green">나의 서랍</a></div>
+                <div id="myPage"><img src="images/Vector.png" alt=""><a href="/springPage/index.html" class="green">나의 서랍</a></div>
             </div>
         </nav>
 
@@ -31,10 +31,10 @@
             <div class="subTitle">새로운 계절에 눈 뜨고 싶은 그대를 위하여</div>
 
             <div class="button">
-                <div id="spring">Spring</div>
-                <div id="summer">Summer</div>
-                <div id="autumn">Autumn</div>
-                <div id="winter">Winter</div>
+                <a href="#"><div id="spring">Spring</div>
+                <a href="#"><div id="summer">Summer</div></a>
+                <a href="#"></a><div id="autumn">Autumn</div></a>
+                <a href="#"></a><div id="winter">Winter</div></a>
             </div>
 
             <div class="pageTitle2">다시 돌아온, 봄</div>
@@ -45,61 +45,76 @@
                 들은 푸른 잔디로 덮이며, 꽃들은 다채롭게 피어나기 시작합니다.
             </div>
 
-            <div class="option">
-                서랍 저장순<img src="images/arrow3.png" alt="">
+            <div class="options">
+                <select id="itemSelect" name="items">
+                <option value="opt1">서랍 저장순</option>
+                <option value="opt2">최신순</option>
+                <option value="opt3">인기순</option>
+                </select>
             </div>
 
             <div class="myPics">
                 <div class="picFrame">
                     
-                    <div class="frame">
-                        <div class="pic">
-                            <img src="images/IMG_48602.png" alt="">
-                        </div>
-                        <div class="explain">
-                            <div class="picEx">
-                                <div class="picTitle">따뜻한 봄날의 제주</div>
-                                <div class="drawer"><img src="images/Vector.png" alt="">서랍 480</div>
+                    <a href="#">
+                        <div class="frame">
+                            <div class="pic">
+                                <img src="images/IMG_48602.png" alt="">
                             </div>
-                            <div class="author">지은</div>
-                        </div>
-                    </div>
-                    <div class="frame">
-                        <div class="pic">
-                            <img src="images/IMG_48602.png" alt="">
-                        </div>
-                        <div class="explain">
-                            <div class="picEx">
-                                <div class="picTitle">따뜻한 봄날의 제주</div>
-                                <div class="drawer"><img src="images/Vector.png" alt="">서랍 480</div>
+                            <div class="explain">
+                                <div class="picEx">
+                                    <div class="picTitle">따뜻한 봄날의 제주</div>
+                                    <div class="drawer"><img src="images/Vector.png" alt="">서랍 480</div>
+                                </div>
+                                <div class="author">지은</div>
                             </div>
-                            <div class="author">지은</div>
                         </div>
-                    </div>
-                    <div class="frame">
-                        <div class="pic">
-                            <img src="images/IMG_48602.png" alt="">
-                        </div>
-                        <div class="explain">
-                            <div class="picEx">
-                                <div class="picTitle">따뜻한 봄날의 제주</div>
-                                <div class="drawer"><img src="images/Vector.png" alt="">서랍 480</div>
+                    </a>
+
+                    <a href="#">
+                        <div class="frame">
+                            <div class="pic">
+                                <img src="images/IMG_48602.png" alt="">
                             </div>
-                            <div class="author">지은</div>
-                        </div>
-                    </div>
-                    <div class="frame">
-                        <div class="pic">
-                            <img src="images/IMG_48602.png" alt="">
-                        </div>
-                        <div class="explain">
-                            <div class="picEx">
-                                <div class="picTitle">따뜻한 봄날의 제주</div>
-                                <div class="drawer"><img src="images/Vector.png" alt="">서랍 480</div>
+                            <div class="explain">
+                                <div class="picEx">
+                                    <div class="picTitle">따뜻한 봄날의 제주</div>
+                                    <div class="drawer"><img src="images/Vector.png" alt="">서랍 480</div>
+                                </div>
+                                <div class="author">지은</div>
                             </div>
-                            <div class="author">지은</div>
                         </div>
-                    </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="frame">
+                            <div class="pic">
+                                <img src="images/IMG_48602.png" alt="">
+                            </div>
+                            <div class="explain">
+                                <div class="picEx">
+                                    <div class="picTitle">따뜻한 봄날의 제주</div>
+                                    <div class="drawer"><img src="images/Vector.png" alt="">서랍 480</div>
+                                </div>
+                                <div class="author">지은</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="frame">
+                            <div class="pic">
+                                <img src="images/IMG_48602.png" alt="">
+                            </div>
+                            <div class="explain">
+                                <div class="picEx">
+                                    <div class="picTitle">따뜻한 봄날의 제주</div>
+                                    <div class="drawer"><img src="images/Vector.png" alt="">서랍 480</div>
+                                </div>
+                                <div class="author">지은</div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -109,13 +124,13 @@
             <div class="footerContainer1">
                 <div class="icon">
                     <div id="icon1">
-                        <img src="images/instagram.png" alt="">
+                        <a href="#"><img src="images/instagram.png" alt=""></a>
                     </div>
                     <div id="icon2">
-                        <img src="images/kakao.png" alt="">
+                        <a href="#"><img src="images/kakao.png" alt=""></a>
                     </div>
                     <div id="icon3">
-                        <img src="images/facebook.png" alt="">
+                        <a href="#"><img src="images/facebook.png" alt=""></a>
                     </div>
                 </div>
             

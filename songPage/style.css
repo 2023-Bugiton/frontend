@@ -239,11 +239,31 @@ nav div{
   align-items: center;
   justify-content: center; /* 오른쪽 정렬로 수정 */
   margin-left:730px;
+
+  color: #222;
+  text-align: right;
+  font-size: 13px;
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .option:hover {
   cursor: pointer;
 }
+
+.option select {
+  border: none;
+  background-color: transparent;
+  
+}
+
+.option select:focus {
+  outline: none;
+}
+
+
 
 /*album picture*/
 .albumPic{
