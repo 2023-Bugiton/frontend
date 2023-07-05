@@ -12,3 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+function moveurl(url) { 
+    window.location.href = url;
+} 
