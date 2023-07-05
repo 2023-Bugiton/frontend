@@ -233,7 +233,7 @@ nav div{
 
 /*option*/
 
-.option{
+.options{
   margin-top: 16px;
   display: flex;
   align-items: center;
@@ -249,17 +249,17 @@ nav div{
   line-height: 21px;
 }
 
-.option:hover {
+.options:hover {
   cursor: pointer;
 }
 
-.option select {
+.options select {
   border: none;
   background-color: transparent;
   
 }
 
-.option select:focus {
+.options select:focus {
   outline: none;
 }
 
