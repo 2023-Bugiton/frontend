@@ -7,16 +7,99 @@
     font-style: normal;
 }
 
-#wrap {max-width: 1080px;margin: 0 auto;}
-#header {position:relative; line-height:1;}
-#header .inner {display: flex; align-items: center; justify-content: space-between;height: 110px;}
-#header .inner .left {display: flex; align-items: center;}
-#header .inner h1 a {color: #737373; font-family: 'KyoboHandwriting2022khn';}
-#header .inner ul.nav {display: flex; align-items: center;gap:50px;margin-left: 40px;margin-right:100px;}
-#header .inner ul.nav li {color: #737373;font-size: 20px;font-family: pretendard;}
-#header .inner ul.sub_menu li {display: inline-block;color: #737373;font-size: 20px;font-family: pretendard; }
+body{
+   margin: 0;
+   padding: 0;
+ }
 
-#wrap2 {max-width: 1080px;margin: 0 auto;}
+ a:link { 
+  color: #737373;
+  text-decoration: none;
+}
+
+ a:visited { 
+  color: #737373; 
+  text-decoration: none;}
+
+  a:hover{
+    color: #809675; 
+    text-decoration: none;
+  }
+ 
+ a{
+  text-decoration:none;
+ }
+ /*nav*/
+ 
+ nav {
+   display: flex;
+   height: 10vh;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto; /* 가운데 정렬을 위해 추가 */
+   max-width: 100rem;
+ }
+ 
+ nav div{
+   flex-grow: 0.3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+ 
+   color: var(--main-bl, #737373);
+   font-size: 20px;
+   font-family: Pretendard;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+ }
+ 
+ .navContainer1 > div{
+   flex-grow: 0.3;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+ }
+ 
+ .navContainer1{
+   margin: 0 auto;
+   max-width: 80rem;
+   justify-content: center;
+ }
+ 
+ .navContainer2{
+   margin: 0 auto;
+   max-width: 20rem;
+ }
+ 
+ .navContainer2 > div{
+   flex-grow: 0.03;
+   display: flex;
+   justify-content: flex-end; 
+   align-items: center;
+ }
+ 
+ #navTitle{
+   color: var(--main-bl, #737373);
+   text-align: center;
+   font-size: 32px;
+   font-family: 'KyoboHandwriting2022khn';
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+ }
+
+ #navTitle:hover{
+   cursor:pointer;
+   color: #737373;
+ }
+
+ .parent-container {
+    position: relative;
+  }
+  
+  #wrap2 {max-width: 1080px;margin: 0 auto;}
 #header2 {position:relative; line-height:1;}
 #header2 .inner2 {display: flex; align-items: center; justify-content: space-between;height: 110px;}
 #header2 .inner2 .left2 {display: flex; align-items: center;}
@@ -36,87 +119,76 @@
     text-decoration: underline;
 }
 
-html, body{
-    width:1920px;
-    height:1980px;
-    margin:0;
-    padding:0;
-}
-
-* {margin:0; padding:0;}
-a {text-decoration:none;}
-ul,li,ol {list-style: none;}
-
-#header .inner ul.nav li:hover {
-   cursor:pointer;
-   color:#809675;
- }
  
- #header .inner ul.sub_menu li:hover {
-   cursor:pointer;
-   color:#809675;
- }
 
- .parent-container {
-    position: relative;
+
+  .pageTitle{
+    display: flex;
+    width: 212px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    max-width: 100rem;
+    margin-top: 98px;
+  
+    color: #222;
+    text-align: center;
+    font-size: 30px;
+    font-family: Pretendard;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
   }
   
-  .buttons {
-    margin-top: 180px; margin-left:900px;
-    justify-content: center; /* 가로 가운데 정렬 */
-    align-items: center; /* 세로 가운데 정렬 */
-    
+  /*subTitle*/
+  
+  .subTitle{
+    display: flex;
+    width: 327px;
+    height: 21px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    max-width: 100rem;
+    margin-top: 17px;
+  
+    color: #737373;
+    text-align: center;
+    font-size: 13px;
+    font-family: Pretendard;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .button{
+   
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
   }
   
-  .buttons > div {
-    display: inline-block; /* 요소들을 가로로 나열하기 위해 인라인 블록으로 설정합니다 */
-    margin: 0 10px; /* 요소들 간의 간격 설정 (옵션) */
-    margin-top: 280px;
+  .button div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  
   
   #spring {
     font-family: Noto Sans;
     font-style: normal;
-    color: #333;
+    color: #FFF;
     width: 112px;
     height:30px;
     margin: 10px;
-    line-height:30px;
     padding: 10px;
     border-radius:22px;
     background-color: #FAC8C8;
     text-align: center;
   }
-
-
-.title { 
-    color:#737373;
-    position:absolute;
-    left:865px;
-    top:121px;
-    font-family:Pretendard;
-    font-size:30px;
-    font-weight:400;
-    letter-spacing:0;
-    line-height:36px;
-    text-align:center;
- }
-
- .smalltitle{
-    color:#737373;
-    position:absolute;
-    left:810px;
-    top:210px;
-    font-family:Pretendard;
-    font-size:13px;
-    letter-spacing:0;
-    line-height:21px;
-    font-weight:400;
-    font-style:normal;
-    text-align:center;
- }
 
  
  input{
@@ -399,3 +471,82 @@ input[name="review"]{
      left:524px;
      top:1640px;
   }
+ /*footer*/
+ 
+ .footer{
+  align-items:center;
+  justify-content:center;
+  display: flex;
+  margin-top:168px;
+  margin-bottom:42px;
+  flex-direction: row;
+  border-top: 1px solid #B5B5B5;
+
+  color: #737373;
+  font-size: 11px;
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+
+.footerContainer1{
+  justify-content: flex-start;
+  margin-top: 45px;
+}
+
+.line{
+  margin-bottom: 45px;
+}
+
+
+.icon{
+  gap:12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.inform1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 24px;
+  flex-direction: row;
+  margin-bottom:12px;
+}
+
+.inform2{
+  margin-bottom:12px;
+}
+
+.point { 
+  background-color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
+  width:4px;
+  height:4px;
+  border-top-left-radius:9999px;
+  border-top-right-radius:9999px;
+  border-bottom-left-radius:9999px;
+  border-bottom-right-radius:9999px;
+}
+
+.footerContainer2{
+  margin-bottom: 0px;
+}
+
+.inform5{
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap:12px;
+  margin-left: 452px;
+  text-align:right;
+  margin-right: 
+}

@@ -13,10 +13,10 @@
     default:
         break;
     }
-});*/
+})*/
 
 function moveurl(url) { 
-    location.href = url;
+    window.location.href = url;
 } 
 
 
