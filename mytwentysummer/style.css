@@ -347,104 +347,9 @@ body{
     border-bottom-right-radius:9999px;
  }
 
- hr{
-    position:relative;
-    top:1643px;
-}
-
- .inform1 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    height:18px;
-    position:relative;
-    left:452px;
-    top:1750px;
-    font-family:Pretendard;
-    text-align:left;
-    font-size:11px;
-    letter-spacing:0;
-    line-height:px;
- }
- .inform2 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    height:18px;
-    position:relative;
-    left:472px;
-    top:1750px;
-    font-family:Pretendard;
-    text-align:left;
-    font-size:11px;
- }
- .inform3 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    height:18px;
-    position:relative;
-    left:306px;
-    top:1780px;
-    font-family:Pretendard;
-    text-align:left;
-    font-size:11px;
- }
- .inform4 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    height:18px;
-    position:relative;
-    left:316px;
-    top:1779px;
-    font-family:Pretendard;
-    text-align:left;
-    font-size:12px;
- }
- .inform5 { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    width:134px;
-    height:96px;
-    position:absolute;
-    left:1333px;
-    top:2240px;
-    font-family:Pretendard;
-    text-align:right;
-    font-size:11px;
-    letter-spacing:0;
- }
-
- .copy { 
-    color:rgba(115.00000074505806, 115.00000074505806, 115.00000074505806, 1);
-    width:350px;
-    height:18px;
-    position:relative;
-    left:87px;
-    top:1808px;
-    font-family:Pretendard;
-    text-align:left;
-    font-size:11px;
-    letter-spacing:0;
-    line-height:px;
- }
-
- #icon1 { 
-    width:24px;
-    height:24px;
-    position:relative;
-    left:452px;
-    top:1688px;
- }
-  #icon2 { 
-     width:24px;
-     height:24px;
-     position:relative;
-     left:488px;
-     top:1663.5px;
-  }
-  #icon3{
-    width:24px;
-     height:24px;
-     position:relative;
-     left:524px;
-     top:1640px;
-  }
- /*footer*/
+/*footer*/
  
- .footer{
+.footer{
   align-items:center;
   justify-content:center;
   display: flex;
@@ -460,7 +365,6 @@ body{
   font-weight: 400;
   line-height: 18px;
 }
-
 
 .footerContainer1{
   justify-content: flex-start;
