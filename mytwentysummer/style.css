@@ -331,6 +331,11 @@ body{
  
  }
 
+ .button1:hover{
+  cursor: pointer;
+ }
+
+
 .star-cont{
   display:flex;
   flex-direction:row;
@@ -342,6 +347,9 @@ body{
     margin-top: 20px;
     margin-left: 5px;
   }
+.stars>img:hover{
+  cursor: pointer;
+}
 
 
   .point { 
