@@ -72,6 +72,7 @@ body{
    justify-content: center;
  }
  
+
  .navContainer2{
    margin: 0 auto;
    max-width: 20rem;
@@ -120,12 +121,21 @@ body{
     
 }
 
+#header2 .inner2 ul.nav2 li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #E1BDBD;
+  color: black;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
 #header2 .inner2 ul.nav2 li:visited {
     text-decoration: underline;
 }
-
- 
-
 
   .pageTitle{
     display: flex;
