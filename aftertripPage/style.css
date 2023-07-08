@@ -426,6 +426,10 @@ select.box {
       line-height: 30px;
    
    }
+   
+.button1:hover{
+  cursor: pointer;
+ }
   
   .star-cont{
     display:flex;
@@ -438,6 +442,10 @@ select.box {
       margin-top: 20px;
       margin-left: 5px;
     }
+
+  .stars>img:hover{
+    cursor: pointer;
+  }
   
   
     .point { 
@@ -463,15 +471,27 @@ select.box {
 #header2 .inner2 .left2 {display: flex; align-items: center; margin-left:-150px;}
 #header2 .inner2 ul.nav2 {display: flex; align-items: center;gap:100px;margin-left:135px; margin-right:100px; margin-top:50px; margin-bottom:20px;}
 #header2 .inner2 ul.nav2 li {
-    color:rgba(51, 51, 51, 0.50); 
-    font-size: 13px; 
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    list-style:none;
-    
+  color:rgba(51, 51, 51, 0.50); 
+  font-size: 13px; 
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  list-style:none;
+  
+}
+
+#header2 .inner2 ul.nav2 li:hover {
+cursor: pointer;
+border-bottom: 3px solid #E1BDBD;
+color: black;
+text-align: center;
+font-family: Noto Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
 }
 
 #header2 .inner2 ul.nav2 li:visited {
