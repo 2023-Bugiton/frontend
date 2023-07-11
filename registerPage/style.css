@@ -222,6 +222,7 @@ margin-bottom:12px;
    text-align:center;
    border-radius: 8px;
    background: #809675;
+
    border:none;
 }
 
@@ -320,6 +321,10 @@ margin-left:10px;
    margin-left: 452px;
    text-align:right;
    margin-right: 
+ }
+
+ #login{
+  color:#809675; 
  }
 
  
