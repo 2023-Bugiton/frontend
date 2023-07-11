@@ -141,6 +141,28 @@ body{
   background: url("images/banner.png") no-repeat center ;
   }
 
+  @media screen and (max-width: 768px) {
+    .banner2 {
+      background-size: contain; /* Switches to "contain" when the screen width is 768px or less */
+    }
+  }
+
+  .banner2{
+    position:relative;
+    width: 100%;
+height: 225px;
+background: #809675;
+margin-top:120px;
+}
+
+
+.picture2 img{
+  width: 380px;
+  height: 225px;
+  object-fit: cover;
+  margin-left:1100px;
+  }
+
   .logo1{
     position:absolute;
     top:73%;
@@ -176,6 +198,39 @@ font-weight: 500;
 line-height: normal;
   }
 
+  .logo3{
+    position:absolute;
+    top:20%;
+    left:25%;
+    transform:translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    color: #FCFAF6;
+font-family: Pretendard;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+  }
+
+  .logo4{
+    position:absolute;
+    top:45%;
+    left:32%;
+    transform:translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    color: #FCFAF6;
+font-family: Pretendard;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+  }
   /*gallery*/
 .gallery{
   margin: 0 auto;
@@ -220,6 +275,37 @@ line-height: normal;
   margin-left: 381px;
 }
 
+.myLog{
+  position:absolute;
+  top:65%;
+  left:22.5%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid #E3E3E3;
+  width: 260px;
+  height: 56px;
+}
+
+.myLog>span{
+  position:absolute;
+  top:30%;
+  left:27%;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.27px;
+}
+
+.myLog:hover{
+  cursor: pointer;
+}
+
 
 
 /*myPics*/
@@ -259,7 +345,7 @@ line-height: normal;
 .ex{
   color: #333;
   font-size: 16px;
-  font-family: Noto Sans;
+  font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 400;
   line-height: 23.2px;
@@ -271,7 +357,7 @@ line-height: normal;
   color: #999;
   text-align: right;
   font-size: 13px;
-  font-family: Noto Sans;
+  font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 400;
   line-height: 17px;
@@ -294,7 +380,7 @@ cursor:pointer;
   margin-top: 7px;
   color: #B5B5B5;
   font-size: 16px;
-  font-family: Noto Sans;
+  font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
