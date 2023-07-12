@@ -31,4 +31,8 @@ function addUnderline(element) {
       }
     }
   }
+  function redirectToPage(url) {
+    window.location.href = url;
+}
+  
   
