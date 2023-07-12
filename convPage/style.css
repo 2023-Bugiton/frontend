@@ -146,8 +146,9 @@ body{
  
  /*songList*/
  .songList{
-  margin-top: 5px;
-  margin-left:370px;
+  align-items:center;
+  justify-content:center;
+  display:flex;
 }
 
 .listFrame { 
