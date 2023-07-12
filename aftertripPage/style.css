@@ -358,6 +358,25 @@ select.box {
    margin-top: 30px;
       margin-left: 15px;
    }
+
+   .miniIcon{
+    margin-left: 750px;
+    top:32%;
+    position:absolute;
+  
+    flex-shrink: 0;
+}
+
+   textarea {
+    width: 706px;
+height: 204px;
+    padding: 10px;
+    margin-top:20px;
+    border: solid 2px #e3e3e3;
+    border-radius: 5px;
+    font-size: 16px;
+    resize:none;
+  }
   
    .review{
       color: #999;
@@ -505,8 +524,7 @@ line-height: 16px;
   }
  
   .detail-holder > input{
-    width: 830px;
-    height: 56px;
+    
     padding: 0 10px;
     box-sizing: border-box;
     border-radius: 4px;
@@ -520,7 +538,8 @@ line-height: 16px;
  .detail-holder > input[type="text"]{
    margin-top:20px;
    margin-left:5px;
-
+   width: 706px;
+   height: 104px;
  }
  
  .detail-holder > button[type="submit"]{
