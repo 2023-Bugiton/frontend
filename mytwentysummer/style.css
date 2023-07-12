@@ -137,10 +137,12 @@ body{
     text-decoration: underline;
 }
 
+.pageTitle > img{
+  margin-left:30px;
+}
+
   .pageTitle{
     display: flex;
-    width: 212px;
-    height: 36px;
     justify-content: center;
     align-items: center;
     margin: 0 auto; 
@@ -364,6 +366,72 @@ body{
     border-bottom-left-radius:9999px;
     border-bottom-right-radius:9999px;
  }
+
+ 
+ .miniIcon{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.write{
+  margin-left:300px;
+  
+}
+
+ textarea {
+  width: 706px;
+height: 204px;
+  padding: 10px;
+  margin-top:20px;
+  border: solid 2px #e3e3e3;
+  border-radius: 5px;
+  font-size: 16px;
+  resize:none;
+}
+
+ .review{
+    color: #999;
+ text-align: left;
+ font-size: 20px;
+ font-family: Noto Sans;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 20.8px;
+ margin-top: 30px;
+    margin-left: 15px;
+ }
+ input[type=file]::file-selector-button {
+  width: 150px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid rgb(77,77,77);
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    background: rgb(77,77,77);
+    color: #fff;
+  }
+}
+
+ input[type="file"]{
+  margin-top:35px;
+  margin-right:500px;
+  margin-bottom:10px;
+ }
+
+ .inputfile{
+  color: #999;
+text-align: left;
+font-size: 20px;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 20.8px;
+margin-top: 100px;
+  margin-left: 15px;
+}
 
 /*footer*/
  
