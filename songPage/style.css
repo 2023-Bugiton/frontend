@@ -272,6 +272,7 @@ nav div{
   align-items: center;
   justify-content: center;
   gap: 30px;
+  margin-bottom:80px;
 }
 
 .albumPic>img{
@@ -286,16 +287,18 @@ nav div{
 
 /*songList*/
 .songList{
-  margin-top: 110px;
-  margin-bottom:168px;
+  margin-top: 5px;
+  margin-left:370px;
 }
 
 .listFrame { 
+  width:983px;
+  height:60px;
   margin-top: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 200px;
+  gap: 180px; 
   margin-bottom:15px;
 }
 .rect { 
@@ -314,6 +317,9 @@ nav div{
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
+  text-align:center;
+  width:200px;
+  height:25px;
 }
 .songtitle:hover{
   cursor:pointer;
@@ -325,6 +331,9 @@ nav div{
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
+  width:180px;
+  height:25px;
+  text-align:center;
 }
 .singer:hover{
   cursor:pointer;
