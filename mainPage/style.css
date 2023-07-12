@@ -253,6 +253,10 @@ line-height: 27px;
   height:39px;
 }
 
+.myPics>img{
+  cursor:pointer;
+}
+
 .gallerySub{
   display: flex;
   margin-top: 3px;
