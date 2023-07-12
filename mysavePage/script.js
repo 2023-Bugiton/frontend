@@ -1,4 +1,5 @@
-$('button').click(function(){
-    $('button').removeClass("active");
-    $(this).addClass("active");
-  });
+
+
+  function redirectToPage(url) {
+    window.location.href = url;
+}
