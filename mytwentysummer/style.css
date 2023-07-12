@@ -376,8 +376,12 @@ body{
 }
 
 .write{
-  margin-left:300px;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100rem;
+  margin-left: 500px;
 }
 
  textarea {
