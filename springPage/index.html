@@ -32,30 +32,35 @@
             <div class="subTitle">새로운 계절에 눈 뜨고 싶은 그대를 위하여</div>
 
             <div class="button">
+
+                <label for="all">
+                    <input type="radio" id="all" name="season" value="all"  checked onclick="showAllDescription()" >
+                    <div>전체보기</div>
+                </label>
                 <label for="spring">
-                    <input type="radio" id="spring" name="season" value="spring"  onclick="redirectToPage('#')" >
+                    <input type="radio" id="spring" name="season" value="spring"  onclick="showSpringDescription()" >
                     <div>Spring</div>
                 </label>
                 <label for="summer">
-                    <input type="radio" id="summer" name="season" value="summer"  onclick="redirectToPage('#')">
+                    <input type="radio" id="summer" name="season" value="summer"  onclick="showSummerDescription()">
                     <div>Summer</div>
                 </label>
                 <label for="autumn">
-                    <input type="radio" id="autumn" name="season" value="autumn"  onclick="redirectToPage('#')">
+                    <input type="radio" id="autumn" name="season" value="autumn"  onclick="showAutumnDescription()">
                     <div>Autumn</div>
                 </label>
                 <label for="winter">
-                    <input type="radio" id="winter" name="season" value="winter"  onclick="redirectToPage('#')">
+                    <input type="radio" id="winter" name="season" value="winter"  onclick="showWinterDescription()">
                     <div>Winter</div>
                 </label>
             </div>
 
-            <div class="pageTitle2">다시 돌아온, 봄</div>
-            <div class="subTitle2">봄이 찾아온다면, 눈부신 햇살이 어깨를  가볍게 스쳐 지나갈 것입니다. <br>
-                그리고 그 따스함은 마음에도 온기를 전해줄 것입니다. <br>
-                작고 작은 꽃들이 흙 속에서 비는 물방울을 받아 피어나면, <br>
-                세상은 한껏 활기를 띠게 됩니다. 나무들은 새싹을 내고, <br>
-                들은 푸른 잔디로 덮이며, 꽃들은 다채롭게 피어나기 시작합니다.
+            <div class="pageTitle2">한 해의 사계절이 어우러지는 순간,</div>
+            <div class="subTitle2">봄의 햇살과 생명력, 여름의 태양과 열정 <br>
+                가을의 우아함과 변화, 겨울의 평화와 공기.<br>
+                
+                우리는 사계절의 선물을 받아들이며, 우주의 신비와 함께하는 아름다운 순간. <br>
+                사계절의 다양성을 노래하며, 우리만의 이야기를 펼쳐나갈 수 있습니다.<br>
             </div>
 
             <div class="options">
